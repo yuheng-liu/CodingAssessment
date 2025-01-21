@@ -1,5 +1,6 @@
 package com.yuheng.codingassessment.ui
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -8,8 +9,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.yuheng.codingassessment.databinding.ItemMovieBinding
 import com.yuheng.codingassessment.models.Movie
+import dagger.hilt.android.qualifiers.ActivityContext
+import javax.inject.Inject
 
-class MovieAdapter: ListAdapter<Movie, MovieAdapter.MoviesViewHolder>(MovieDiffUtils()) {
+class MovieAdapter @Inject constructor(
+    @ActivityContext private val context: Context
+): ListAdapter<Movie, MovieAdapter.MoviesViewHolder>(MovieDiffUtils()) {
 
     inner class MoviesViewHolder(val binding: ItemMovieBinding): RecyclerView.ViewHolder(binding.root)
 
