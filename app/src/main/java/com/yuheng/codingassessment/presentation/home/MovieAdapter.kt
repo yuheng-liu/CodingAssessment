@@ -1,4 +1,4 @@
-package com.yuheng.codingassessment.ui
+package com.yuheng.codingassessment.presentation.home
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.yuheng.codingassessment.databinding.ItemMovieBinding
-import com.yuheng.codingassessment.models.Movie
+import com.yuheng.codingassessment.domain.entities.Movie
 import dagger.hilt.android.qualifiers.ActivityContext
 import javax.inject.Inject
 

@@ -1,7 +1,8 @@
-package com.yuheng.codingassessment.repos
+package com.yuheng.codingassessment.data
 
-import com.yuheng.codingassessment.models.Movie
-import com.yuheng.codingassessment.network.OpenMovieDatabaseService
+import com.yuheng.codingassessment.domain.MovieRepository
+import com.yuheng.codingassessment.domain.entities.Movie
+import com.yuheng.codingassessment.data.network.OpenMovieDatabaseService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

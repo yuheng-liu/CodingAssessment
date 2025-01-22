@@ -1,4 +1,4 @@
-package com.yuheng.codingassessment.network
+package com.yuheng.codingassessment.data.network
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -13,7 +13,8 @@ class RetrofitServiceBuilder {
 
     private val moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
 
-    fun getOpenMoviesDatabaseService(): OpenMovieDatabaseService = getRetrofitInstance().create(OpenMovieDatabaseService::class.java)
+    fun getOpenMoviesDatabaseService(): OpenMovieDatabaseService = getRetrofitInstance().create(
+        OpenMovieDatabaseService::class.java)
 
     private val defaultClient = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BODY })

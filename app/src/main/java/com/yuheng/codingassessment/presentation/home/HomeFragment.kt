@@ -1,4 +1,4 @@
-package com.yuheng.codingassessment.ui
+package com.yuheng.codingassessment.presentation.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.yuheng.codingassessment.databinding.FragmentHomeBinding

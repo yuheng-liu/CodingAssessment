@@ -1,10 +1,10 @@
-package com.yuheng.codingassessment.di
+package com.yuheng.codingassessment.data.network.di
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.yuheng.codingassessment.network.OpenMovieDatabaseService
-import com.yuheng.codingassessment.repos.MovieRepository
-import com.yuheng.codingassessment.repos.MovieRepositoryImpl
+import com.yuheng.codingassessment.data.network.OpenMovieDatabaseService
+import com.yuheng.codingassessment.domain.MovieRepository
+import com.yuheng.codingassessment.data.MovieRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

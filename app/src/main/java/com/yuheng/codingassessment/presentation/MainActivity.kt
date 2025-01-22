@@ -1,4 +1,4 @@
-package com.yuheng.codingassessment.ui
+package com.yuheng.codingassessment.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

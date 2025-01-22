@@ -4,13 +4,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".presentation.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_home"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:name="com.yuheng.codingassessment.ui.HomeFragment"
+        android:name="com.yuheng.codingassessment.presentation.home.HomeFragment"
         tools:layout="@layout/fragment_home"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

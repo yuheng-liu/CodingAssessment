@@ -1,6 +1,6 @@
-package com.yuheng.codingassessment.repos
+package com.yuheng.codingassessment.domain
 
-import com.yuheng.codingassessment.models.Movie
+import com.yuheng.codingassessment.domain.entities.Movie
 import kotlinx.coroutines.flow.StateFlow
 
 interface MovieRepository {

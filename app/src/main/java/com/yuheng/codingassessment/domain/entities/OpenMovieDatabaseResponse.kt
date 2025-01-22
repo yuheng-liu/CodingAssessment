@@ -1,4 +1,4 @@
-package com.yuheng.codingassessment.models
+package com.yuheng.codingassessment.domain.entities
 
 data class OpenMovieDatabaseResponse(
     val Search: List<Movie> = emptyList(),

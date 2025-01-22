@@ -1,6 +1,6 @@
-package com.yuheng.codingassessment.network
+package com.yuheng.codingassessment.data.network
 
-import com.yuheng.codingassessment.models.OpenMovieDatabaseResponse
+import com.yuheng.codingassessment.domain.entities.OpenMovieDatabaseResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
