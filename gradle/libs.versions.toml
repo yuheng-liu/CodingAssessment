@@ -19,7 +19,8 @@ loggingInterceptor = "4.9.0"
 material = "1.12.0"
 activity = "1.10.0"
 constraintlayout = "2.2.0"
-mockk = "1.13.2"
+mockk = "1.13.16"
+mockkAndroid = "1.13.16"
 moshi = "1.15.0"
 moshiKotlinVersion = "1.13.0"
 retrofit = "2.9.0"
@@ -46,6 +47,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockkAndroid" }
 moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 squareup-moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlinVersion" }
